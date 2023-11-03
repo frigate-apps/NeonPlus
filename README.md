@@ -5,7 +5,7 @@
 
 # NeonPlus 1.0
 
-NeonPlus 是一种无非的运行去器
+NeonPlus 是一种无限的运行去器
 
 配置文件格式: yaml、json、ini、TOML、NSON
 你们要投票要哪个配置文件格式?
