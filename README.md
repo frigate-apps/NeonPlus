@@ -6,6 +6,13 @@
 # NeonPlus 1.0
 
 NeonPlus 是一种无限的运行去器
+```
+func main () {
+  printf("Hello World!");
+  console.writeln('Hello World!');
+}
+```
+
 
 | 系统 | 名字 | 支持 | 
 |:--:|:--:|:--:|
