@@ -13,8 +13,8 @@ NeonPlus 是一种无限的运行去器
 
 | 系统 | 名字 | 支持 | 
 |:--:|:--:|:--:|
-| Wnodws | NSON、NeonPlus、NeonLang | ✅ |
-| linux | NSON、NeonPlus、NeonLang | ✅ |
-| NoteOS | NSON、NeonPlus、NeonLang | ✅ |
-| Mac | NSON、NeonPlus、NeonLang | ✅ |
+| Wnodws | NeonPlus、NeonLang、NSON | ✅ |
+| linux | NeonPlus、NeonLang、NSON | ✅ |
+| NoteOS | NeonPlus、NeonLang、NSON | ✅ |
+| Mac | NeonPlus、NeonLang、NSON | ✅ |
 
