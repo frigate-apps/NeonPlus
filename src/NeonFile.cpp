@@ -15,28 +15,27 @@
 
 namespace Neon
 {
-
     File::File(/* args */) {
-        // NeonPlusFile::path = path; 
+        // NeonPlusthis->path = path; 
     }
 
     File::~File() {
     }
-
+    
     File::File(std::string path)
     {
-        File::path = path;
+        this->path = path;
     }
 
     std::string File::Read(std::string path)
     {
-        File::path = path;
+        this->path = path;
         std::ifstream File;
-        File.open(File::path);
+        File.open(this->path);
         if (!File.is_open())
         {
             File.close();
-            return File::path + " " + "File Open Error!\n";
+            return this->path + " " + "File Open Error!\n";
         }
         //将rdbuf返回的缓冲区转换成string
         std::stringstream buffer;
@@ -48,11 +47,11 @@ namespace Neon
     std::string File::Read()
     {
         std::ifstream File;
-        File.open(File::path);
+        File.open(this->path);
         if (!File.is_open())
         {
             File.close();
-            return File::path + " " + "File Open Error!\n";
+            return this->path + " " + "File Open Error!\n";
         }
         //将rdbuf返回的缓冲区转换成string
         std::stringstream buffer;
@@ -62,36 +61,35 @@ namespace Neon
     }
 
     void File::Write(std::string path, std::string buffer) {
-        File::path = path;
-        std::fstream ouf(File::path, std::ios_base::out | std::ios_base::binary);
+        this->path = path;
+        std::fstream ouf(this->path, std::ios_base::out | std::ios_base::binary);
         ouf.write(buffer.data(), strlen(buffer.data()));
         ouf.close();
     }
 
     void File::Write(std::string buffer) {
-        std::fstream ouf(File::path, std::ios_base::out | std::ios_base::binary);
+        std::fstream ouf(this->path, std::ios_base::out | std::ios_base::binary);
         ouf.write(buffer.data(), strlen(buffer.data()));
         ouf.close();
     }
-
 }
 
 
 /*
 string NeonPlusFile::getPath() {
-     return NeonPlusFile::path; 
+     return NeonPlusthis->path; 
 }
 void NeonPlusFile::setPath(string path) {
-    NeonPlusFile::path = path;
+    NeonPlusthis->path = path;
 }
 
 string NeonPlusFile::Read_() {
     ifstream codeFile;
-    codeFile.open(NeonPlusFile::path);
+    codeFile.open(NeonPlusthis->path);
     if (!codeFile.is_open())
     {
         codeFile.close();
-        return NeonPlusFile::path + " " + "File Open Error!\n";
+        return NeonPlusthis->path + " " + "File Open Error!\n";
     }
     //将rdbuf返回的缓冲区转换成string
     std::stringstream codeStream;
@@ -126,7 +124,7 @@ void NeonPlusFile::Write(string path, string buffer) {
     ouf.close();
 }
 void NeonPlusFile::Write_(string buffer) {
-    fstream ouf(NeonPlusFile::path, ios_base::out | ios_base::binary);
+    fstream ouf(NeonPlusthis->path, ios_base::out | ios_base::binary);
     ouf.write(buffer.data(), strlen(buffer.data()));
     ouf.close();
 }
