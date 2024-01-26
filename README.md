@@ -5,7 +5,8 @@
 
 # NeonPlus 1.0
 
-NeonPlus 是一种无限的运行去器
+NeonPlus 是一个基于C编程语言的编程语言，一种无限的编译器
+
 ```
 plug "stdio";
 func main () {
