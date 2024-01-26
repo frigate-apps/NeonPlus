@@ -1,0 +1,5 @@
+plug "stdio";
+func main () {
+  printf("Hello World!");
+  // console.writeln('Hello World!');
+}
