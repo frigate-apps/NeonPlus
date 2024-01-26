@@ -7,11 +7,22 @@
 
 NeonPlus 是一种无限的运行去器
 ```
+plug "stdio";
 func main () {
   printf("Hello World!");
-  console.writeln('Hello World!');
+  // console.writeln('Hello World!');
 }
 ```
+```
+#inlude <stdio.h>
+int main ()
+{
+  printf("Hello World!");
+  return 0;
+}
+```
+
+
 
 
 | 系统 | 名字 | 支持 | 
