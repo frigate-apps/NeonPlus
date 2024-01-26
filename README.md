@@ -5,7 +5,7 @@
 
 # NeonPlus 1.0
 
-NeonPlus 是一个基于C编程语言的编程语言，一种无限的编译器
+NeonPlus 是一个基于C/C++编程语言的编程语言，一种无限VM编译器/VM虚拟机可以调用C-API、字节码转译C源码
 
 ```
 plug "stdio";
