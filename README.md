@@ -40,7 +40,7 @@ public class Main {
 }
 
 
-int : oere (int : a , int : b) {
+int oere (int a , int b) {
     return a + b ;
 }
 
