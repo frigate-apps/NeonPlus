@@ -10,7 +10,7 @@ public type Main {
         System.out.println("Hello World!");
     }
     
-    let addNum(let a, let b) {
+    type let addNum(let a, let b) {
         return a + b ;
     }
     
