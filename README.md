@@ -44,7 +44,7 @@ int oere (int a , int b) {
 
 
 Main.NeonScript
-```js
+```ts
 import stdio ;
 
 type main () {
