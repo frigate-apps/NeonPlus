@@ -7,13 +7,32 @@
 
 NeonPlus 是一个基于C/C++编程语言的编程语言，一种无限VM编译器/VM虚拟机可以调用C-API、字节码转译C源码
 
+Main.np
+```
+public class Main {
+    public static void main(String[] args) {
+        int rt = 67;
+        std.printf("Hello World!");
+        string fercn = "rt:" + rt;
+        std.printf("print: {fercn}", fercn);
+        System.out.println(print: " + fercn);
+        retuen 0;
+    }
+}
+
+```
+
+
+
+
+
 ```
 plug "stdio";
-func main () {
+type main () {
   var e = 1;
   var makr = "Haex"
   printf("Hello World!");
-  // console.writeln('Hello World!');
+  // console.writeln("Hello World!");
 }
 ```
 ```
