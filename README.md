@@ -51,7 +51,7 @@ int oere (int a , int b) {
 
 
 
-```
+```js
 plug "stdio";
 type main () {
     var e = 1;
