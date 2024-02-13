@@ -45,13 +45,23 @@ int oere (int a , int b) {
 
 Main.NeonScript
 ```js
-import stdio;
+import stdio ;
+
 type main () {
     let int e = 1;
     let char[] makr = "Haex";
     printf("Hello World!");
-    // console.writeln("Hello World!");
+    console.writeln("Hello World!");
 }
+
+int oere (int a , int b) {
+    return a + b ;
+}
+
+let addNum(let a, let b) {
+    return a + b ;
+}
+
 ```
 
 
