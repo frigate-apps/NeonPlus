@@ -60,7 +60,7 @@ type main () {
   // console.writeln("Hello World!");
 }
 ```
-```
+```cpp
 #include <stdio.h>
 int main () {
   printf("Hello World!");
