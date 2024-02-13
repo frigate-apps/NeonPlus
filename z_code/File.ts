@@ -4,7 +4,9 @@ public type File {
 
     # File 1.0 
     public type File() {
-        #代码
+        io.x.rw("");
+        asx.be.Few();
+        io.xcn();
     }
 
     public type ~File() {
