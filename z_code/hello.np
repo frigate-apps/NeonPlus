@@ -1,6 +1,21 @@
-plug "stdio";
-// import stdio
-func main () {
-	printf("Hello World!");
-	// console.writeln('Hello World!');
+
+import stdio;
+
+func type main () {
+    let int e = 1;
+    let char[] makr = "Haex";
+    printf("Hello World!");
+    console.writeln("Hello World!");
+}
+
+int oere (int a, int b) {
+    return a + b;
+}
+
+let addNum(let a, let b) {
+    return a + b;
+}
+
+var addNum(var a, var b) {
+    return a + b;
 }
