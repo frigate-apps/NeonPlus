@@ -62,6 +62,10 @@ let addNum(let a, let b) {
     return a + b ;
 }
 
+var addNum(var a, var b) {
+    return a + b ;
+}
+
 ```
 
 
