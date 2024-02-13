@@ -10,18 +10,12 @@ NeonPlus 是一个基于C/C++编程语言的编程语言，一种无限VM编译�
 Main.np
 ```C#
 import neon;
-
 public type Main {
     public void main (String[] args) {
         System.out.println("Hello World!");
     }
 }
-
-
 ```
-
-
-
 
 
 
@@ -39,20 +33,15 @@ public class Main {
     }
 }
 
-
 int oere (int a , int b) {
     return a + b ;
 }
 
-
 ```
 
 
-
-
-
 ```js
-plug "stdio";
+import stdio;
 type main () {
     var e = 1;
     var makr = "Haex"
@@ -60,6 +49,7 @@ type main () {
     // console.writeln("Hello World!");
 }
 ```
+
 ```cpp
 #include <stdio.h>
 int main () {
