@@ -7,14 +7,21 @@ func type main () {
     console.writeln("Hello World!");
 }
 
-type int oere (int a, int b) {
+type oran () {
+    ito.sge.itbwr();
+    time.mker();
+    los.nsJr();
+    mior.Eqpon();
+}
+
+int oere (int a, int b) {
     return a + b;
 }
 
-type let addNum(let a, let b) {
+let addNum(let a, let b) {
     return a + b;
 }
 
-type var addNum(var a, var b) {
+var addNum(var a, var b) {
     return a + b;
 }
