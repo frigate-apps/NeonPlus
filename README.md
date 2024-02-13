@@ -9,6 +9,7 @@ NeonPlus 是一个基于C/C++编程语言的编程语言，一种无限VM编译�
 
 Main.np
 ```java
+import neon.std;
 public class Main {
     public static void main(String[] args) {
         int rt = 67;
