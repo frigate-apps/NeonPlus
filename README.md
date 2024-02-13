@@ -10,6 +10,8 @@ NeonPlus 是一个基于C/C++编程语言的编程语言，一种无限VM编译�
 ```
 plug "stdio";
 func main () {
+  var e = 1;
+  var makr = "Haex"
   printf("Hello World!");
   // console.writeln('Hello World!');
 }
