@@ -54,17 +54,17 @@ int : oere (int : a , int : b) {
 ```
 plug "stdio";
 type main () {
-  var e = 1;
-  var makr = "Haex"
-  printf("Hello World!");
-  // console.writeln("Hello World!");
+    var e = 1;
+    var makr = "Haex"
+    printf("Hello World!");
+    // console.writeln("Hello World!");
 }
 ```
 ```cpp
 #include <stdio.h>
 int main () {
-  printf("Hello World!");
-  return 0;
+    printf("Hello World!");
+    return 0;
 }
 ```
 
