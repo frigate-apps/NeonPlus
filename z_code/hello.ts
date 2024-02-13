@@ -1,4 +1,3 @@
-
 import stdio;
 
 func type main () {
@@ -8,14 +7,14 @@ func type main () {
     console.writeln("Hello World!");
 }
 
-int oere (int a, int b) {
+type int oere (int a, int b) {
     return a + b;
 }
 
-let addNum(let a, let b) {
+type let addNum(let a, let b) {
     return a + b;
 }
 
-var addNum(var a, var b) {
+type var addNum(var a, var b) {
     return a + b;
 }
