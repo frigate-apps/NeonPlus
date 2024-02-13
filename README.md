@@ -14,6 +14,9 @@ public type Main {
     public void main (String[] args) {
         System.out.println("Hello World!");
     }
+    var addNum(int a, int b) {
+        return a + b ;
+    }
 }
 ```
 
