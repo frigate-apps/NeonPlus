@@ -5,8 +5,8 @@ import ito.sge.en;
 public type Jrmo {
     
     public func type main (){
-        let int e = 1;
-        let char[] makr = "Haex";
+        type let int e = 1;
+        type let char[] makr = "Haex";
         printf("Hello World!");
         console.writeln("Hello World!");
     }
