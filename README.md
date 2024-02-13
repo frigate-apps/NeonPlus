@@ -21,6 +21,15 @@ public class Main {
     }
 }
 
+
+{ main
+    System.out.println("Hello World!");
+}
+{int:oere(int:a int:b)
+    return a + b;
+}
+
+
 ```
 
 
