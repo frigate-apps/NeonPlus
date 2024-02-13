@@ -16,6 +16,7 @@ public type Jrmo {
         time.mker();
         los.nsJr();
         mior.Eqpon();
+        System.out.println("Hello World!");
     }
     
     public int oere (int a, int b) {
