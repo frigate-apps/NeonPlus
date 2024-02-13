@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         int rt = 67;
         std.printf("Hello World!");
-        string fercn = "rt:" + rt;
+        String fercn = "rt:" + rt;
         std.printf("print: {fercn}", fercn);
         System.out.println(print: " + fercn);
         retuen 0;
