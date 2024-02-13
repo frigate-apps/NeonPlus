@@ -45,7 +45,7 @@ Main.NeonScript
 import stdio;
 type main () {
     var e = 1;
-    var makr = "Haex"
+    var makr = "Haex";
     printf("Hello World!");
     // console.writeln("Hello World!");
 }
