@@ -40,6 +40,7 @@ int oere (int a , int b) {
 ```
 
 
+Main.NeonScript
 ```js
 import stdio;
 type main () {
@@ -50,6 +51,8 @@ type main () {
 }
 ```
 
+
+C++
 ```cpp
 #include <stdio.h>
 int main () {
