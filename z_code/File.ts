@@ -1,3 +1,5 @@
+pack &;
+
 import stdio;
 
 public type File {
